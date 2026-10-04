@@ -368,7 +368,7 @@
 
     <section class="section" id="options-structure">
       <div class="section-head"><h2>期权结构</h2><span class="section-index">01A / OPTIONS STRUCTURE</span></div>
-      <p style="margin:0 0 12px;font-size:13px;color:var(--muted)">数据截至 2026-10-01 15:55 ET，美东 · 每周更新</p>
+      <p style="margin:0 0 12px;font-size:13px;color:var(--muted)">数据截至 2026-10-02 15:55 ET，美东 · 每周更新</p>
 
       <div class="panel" style="padding:16px 18px;margin-bottom:12px;border-left:4px solid var(--accent)">
         <div style="display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:8px">
@@ -379,16 +379,19 @@
       </div>
 
       <div class="data-grid">
-        <div class="datum"><span class="k">净做市商 GEX</span><span class="v pos">+$710.45M</span><span class="k">约 +$7.1 亿 · 正 Gamma · OptiView（做市商视角，假设做市商持有与公众订单流相反的头寸）</span></div>
+        <div class="datum"><span class="k">净做市商 GEX</span><span class="v pos">+$54.5M</span><span class="k">约 +$5,450 万 · 正 Gamma · 最大 Gamma 集中行权价 $420 · OptiView（做市商视角，假设做市商持有与公众订单流相反的头寸）</span></div>
         <div class="datum"><span class="k">Call Wall</span><span class="v">$450</span><span class="k">阻力参考 · 最大 Call 未平仓行权价 · OptiView</span></div>
         <div class="datum"><span class="k">Put Wall</span><span class="v">$420</span><span class="k">支撑参考 · 最大 Put 未平仓行权价 · OptiView；$420 同时是最大 Gamma 集中点，OptiView 称为潜在「磁吸/屏障」位</span></div>
-        <div class="datum"><span class="k">Max Pain</span><span class="v">$420</span><span class="k">做市商对冲参考位 · OptiView（全期限口径）</span></div>
-        <div class="datum"><span class="k">Put-Call 未平仓比</span><span class="v">1.27 <small>Put-heavy</small></span><span class="k">Call 未平仓 35,876 张 / Put 未平仓 45,505 张 · OptiView；该比率已由 2026 年 2 月的 0.57 升至 1.27，下行保护需求升温</span></div>
-        <div class="datum"><span class="k">30 天 ATM IV</span><span class="v">36.9%</span><span class="k">IV Rank 43 / 100（Moderate，中等）· OptiView</span></div>
-        <div class="datum"><span class="k">期权隐含预期波幅</span><span class="v">±$39.67</span><span class="k">±9.1% · OptiView</span></div>
+        <div class="datum"><span class="k">Max Pain（全部到期日口径）</span><span class="v">$420</span><span class="k">距 10/2 收盘 −3.7% · 做市商对冲参考位 · OptiView</span></div>
+        <div class="datum"><span class="k">Put-Call 未平仓比</span><span class="v">1.29 <small>Put-heavy</small></span><span class="k">Call 未平仓 36,318 张 / Put 未平仓 46,704 张 · OptiView（2026-10-02）；该比率已由 2026 年 2 月的 0.57 升至 1.29，下行保护需求升温</span></div>
+        <div class="datum"><span class="k">30 天 ATM IV</span><span class="v">39.9%</span><span class="k">IV Rank 39 / 100（Moderate，中等）· OptiView（2026-10-02）</span></div>
+        <div class="datum"><span class="k">期权隐含预期波幅</span><span class="v">±$53.89</span><span class="k">约 ±12.4% · OptiView（2026-10-02）</span></div>
       </div>
 
-      <p style="margin:12px 0 0;font-size:12px;color:var(--muted);line-height:1.7">数据来源 OptiView（OPRA 延迟数据，2026-10-01 15:55 ET 快照）；ETN 期权结构为 OptiView 单一口径，FlashAlpha 本次无 ETN 数值（页面未渲染，未引用）。OptiView 口径参考价：上一收盘 $437.56、52 周 $314.01 – $459.29，与 Nasdaq 官方收盘 $437.28、$311.92 – $478.00 有微小口径差异；价格卡一律以 Nasdaq 官方为准。Call/Put Wall 与 Max Pain 为做市商对冲参考位，不构成买卖建议。Gamma Flip 各模型分歧较大，本板块不列具体数值。GEX 正负基于「做市商持有与公开订单流相反头寸」的模型假设。</p>
+      <p style="margin:12px 0 0;font-size:12px;color:var(--muted);line-height:1.7">现价位置（10/2 收盘 vs Wall）：收盘 $436.11，Call Wall $450 在上方约 3.2%；Put Wall $420 在下方约 3.7%，且 $420 同时是最大 Gamma 集中行权价（磁吸位）。</p>
+      <p style="margin:6px 0 0;font-size:12px;color:var(--muted);line-height:1.7">成交异动（OptiView 2026-10-02）：当日成交最热行权价 $450；全链成交量 / 未平仓量比 0.39。</p>
+
+      <p style="margin:12px 0 0;font-size:12px;color:var(--muted);line-height:1.7">数据来源 OptiView（OPRA 延迟数据，2026-10-02 15:55 ET 快照）；ETN 期权结构为 OptiView 单一口径，FlashAlpha 本次无 ETN 数值（页面未渲染，未引用）。Max Pain 为全部到期日合约口径，包含远月合约，数值通常低于最近到期口径，两者不可直接比较。OptiView 口径参考价：上一收盘 $437.56、52 周 $314.01 – $459.29，与 Nasdaq 官方收盘 $437.28、$311.92 – $478.00 有微小口径差异；价格卡一律以 Nasdaq 官方为准。Call/Put Wall 与 Max Pain 为做市商对冲参考位，不构成买卖建议。Gamma Flip 各模型分歧较大，本板块不列具体数值。GEX 正负基于「做市商持有与公开订单流相反头寸」的模型假设。</p>
     </section>
 
     <section class="section" id="financials">
